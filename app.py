@@ -72,7 +72,7 @@ def main():
 
     """ ML App with Streamlit for IVF Prediction"""
     st.set_option('deprecation.showPyplotGlobalUse', False)
-    st.title("Healthcare Treatment Prediction")
+    st.title("Healthcare: Treatment Prediction")
     image = Image.open('healthcare.jpg')
     st.image(image, caption='ML in healthcare',use_column_width=True)
     #from fastapi import FastAPI
