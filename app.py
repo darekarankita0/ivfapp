@@ -71,6 +71,7 @@ def main():
 
 
     """ ML App with Streamlit for IVF Prediction"""
+    st.set_option('deprecation.showPyplotGlobalUse', False)
     st.title("IVF Prediction")
     #image = Image.open('healthcare.jpg')
     #st.image(image, caption='AI in healthcare',use_column_width=False)
