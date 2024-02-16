@@ -74,7 +74,7 @@ def main():
     st.set_option('deprecation.showPyplotGlobalUse', False)
     st.title("IVF Prediction")
     image = Image.open('healthcare.jpg')
-    st.image(image, caption='AI in healthcare',use_column_width=10)
+    st.image(image, caption='AI in healthcare',use_column_width=True)
     #from fastapi import FastAPI
     #import uvicorn
     #import nest_asyncio
